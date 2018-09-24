@@ -7,7 +7,10 @@
   check : from your terminal type $ python -V
 
 # How to use :
-  1. from the directory of Dockerfile :
+  1. Build the Dockerfile
+  from your terminal type $ docker build -t my-first-app:latest .
+  1. Run the container :
   from your terminal type $ docker run my-first-app:latest
+  or typr $ docker run <container_id>
 
     
