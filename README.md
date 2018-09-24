@@ -1,9 +1,9 @@
 ## docker-example
 
 # prerequisites :
-  1. docker installed
+  1. docker installed : 
   check -->> from your terminal type $ docker info
-  2. python >= 3.5 installed
+  2. python >= 3.5 installed :
   check -->> from your terminal type $ python -V
 
 # How to use :
@@ -11,6 +11,5 @@
   from your terminal type $ docker build -t my-first-app:latest .
   1. Run the container -->>
   from your terminal type $ docker run my-first-app:latest
-  or typr $ docker run <container_id>
+  or type $ docker run <container_id>
 
-    
